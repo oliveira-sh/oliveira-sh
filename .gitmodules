@@ -1,0 +1,3 @@
+[submodule "wblog/themes/risotto"]
+    path = wblog/themes/risotto
+    url  = https://github.com/joeroe/risotto.git

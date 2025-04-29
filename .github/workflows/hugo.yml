@@ -42,8 +42,6 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # … (other steps unchanged) …
-
       - name: Build with Hugo
         working-directory: wblog
         run: |
