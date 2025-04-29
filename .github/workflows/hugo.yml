@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'wblog/**'         # ← only run when files under wblog/ 
   workflow_dispatch:
 
 permissions:
