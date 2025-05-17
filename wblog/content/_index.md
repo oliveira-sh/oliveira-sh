@@ -1,44 +1,34 @@
 # Hallo, Wie geht’s?
 
-👋 Hi there! I attend by **oliveira-sh**. On this corner of the internet, you'll discover my explorations in:
+👋 Hi there! On this corner of the internet, you'll discover my explorations in:
 
-- **Networking**: From protocols to packet crafting.
-- **Low-Level Programming**: Kernel hacks and OS building blocks.
-- **Cybersecurity**: hacking, pentesting, and purple teaming.
-- **Data Science**: Data wrangling, visualization, and machine learning.
+- **Networking**;
+- **Low-Level Programming**;
+- **Cybersecurity**.
 
-I code somethiings.
+I code somethiings. 
 
 ---
 
-## root@debian:/home/anon# `cat whoami.rs | grep OliveiraSH | less`
+## root@debian:/home/anon# `cat whoami.rs | grep anon | less`
 
 ```rust
-pub struct OliveiraSH {
+pub struct anon {
     nickname: &'static str = "oliveira-sh";
     languages: Vec<&'static str> = vec!["🇧🇷", "🇬🇧", "🇩🇪"];
-    hobbies: Vec<&'static str> = vec![
+    interests: Vec<&'static str> = vec![
         "🐶 Dogs",
         "🎮 Gaming",
         "📚 Reading",
-        "☕ Coffee Enthusiast",
+        "₿ Cryptocurrency's",
     ];
-}
-
-impl OliveiraSH {
-    pub fn fuel_up(&mut self) {
-        if !self.has_coffee() {
-            println!("Time for a coffee break! ☕");
-            self.coffee = true;
-        }
-    }
-
-    fn has_coffee(&self) -> bool {
-        self.hobbies.contains(&"☕ Coffee Enthusiast")
-    }
 }
 ```
 
----
 
-### Let’s Connect :P
+
+Did i help you? <mark>Buy me a coffee using **Monero**</mark> and support privacy-enhancing technologies! 
+
+```bash
+87UriUNreshbvFk6TNWwCmbUUj7LoTLU9h7ehBSmaFrdFcc2c7QmuLaTezQpmmzHefNVRVrTsobJXJATJj83u7uv7xrs7B9
+```

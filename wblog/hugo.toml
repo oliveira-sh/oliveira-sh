@@ -1,9 +1,9 @@
 baseURL = 'https://github.com'
 languageCode = 'en'
-title = 'oliveira'
+title = 'o//:veira'
 author = "Joe Roe"
 theme = "risotto"
-copyright = "© nobody"
+copyright = "© GPLv3 - o//:veira - 2025"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -62,7 +62,13 @@ url = "https://orcid.org/0000-0001-2345-6789"
     identifier = "projects"
     name = "projects"
     url = "/projects/"
-    weight = 40
+    weight = 50
+
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    url = "https://github.com/oliveira-sh"
+    weight = 100
 
 [taxonomies]
 category = "categories"
