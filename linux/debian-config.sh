@@ -49,4 +49,8 @@ rm "$FILENAME"
 
 curl -L https://github.com/refact0r/system24/blob/main/theme/system24.theme.css > /home/anon/.config/vesktop/system24.theme.css
 
+# wallpaper (this one is sick as fck) 
+wget -O ~/Pictures/wallpapers/debian-ascii.png https://i.postimg.cc/cLF7yDhb/debian-orbitting-ascii-16x9-500cols.png
+
+
 echo done.
